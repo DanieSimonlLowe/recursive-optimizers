@@ -4,3 +4,8 @@ The purpose of this project is to implement a number of niche recursive optimize
 
 # Disclaimer
 This library should not be used in production code, as it is a personal project from a recent graduate trying to learn to do more low-level machine learning C++ programming.
+
+
+cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles"
+make all
+./tests/RecursiveOptimizers_test
